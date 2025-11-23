@@ -1,15 +1,20 @@
-# RASOG
-Robotic Arm Simulator On Gazebo
+# RASOG (Robotic Arm Simulator On Gazebo)
 
-The goal of this project is to provide a ROS2 simulation of a robotic arm on Gazebo.
+The goal of this project is to provide a ROS2 simulation of a robotic arm in Gazebo.
 
 ## Robotic Arm
 
-We will use a Fraka robotic arm, available here : [franka_description](https://github.com/frankarobotics/franka_description)
+We will simulate the [Franka Production 3](https://download.franka.de/Franka-Production-3_Datasheet.pdf) manipulator.
+The corresponding robot model files can be found in this repo : [franka_description](https://github.com/frankarobotics/franka_description)
 
 ## How to use :
 
 - Generate the URDF file :
+
+```bash
+./scripts/create_urdf.sh <robot_id> 
+```
+
 ```bash
 ./scripts/create_urdf.sh <robot_id> 
 ```
