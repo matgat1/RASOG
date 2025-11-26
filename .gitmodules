@@ -1,3 +1,9 @@
 [submodule "robot_simulation/franka_description"]
 	path = robot_simulation/franka_description
 	url = git@github.com:matgat1/franka_description.git
+[submodule "src/franka_description"]
+	path = src/franka_description
+	url = git@github.com:matgat1/franka_description.git
+[submodule "franka_description"]
+	path = franka_description
+	url = git@github.com:matgat1/franka_description.git
